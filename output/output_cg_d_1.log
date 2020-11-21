@@ -1,0 +1,194 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:           3042000084
+ a: add:          15246329968 size:           6084000168
+ x: add:          21330330136 size:             12000016
+ z: add:          21342330152 size:             12000016
+ p: add:          21354330168 size:             12000016
+ r: add:          21378330200 size:             12000016
+ q: add:          21366330184 size:             12000016
+loc(sm) = 0x4fc6cfe00	loc(add)=0x7ffdcf9b86a8
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    1500000
+ Iterations:   100
+ Number of active processes:     1
+ Number of nonzeroes per row:       21
+ Eigenvalue shift: .500E+03
+ sampling_check =            0
+ sampling_check =            1
+ Phase 1: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 6553
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 6553
+ Phase 2: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 3: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 12
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 12
+ Phase 4: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 12
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 12
+ Phase 5: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 6: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 23
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 23
+ Phase 7: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 8: 
+loc(sm) = 0x4fc6cfe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x4fc6cfe00
+stop loc(add)0x4fc6cfe00
+
+Memory read sampling results
+
+colidx: 4
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 4
+
+   iteration           ||r||                 zeta
+        1       0.19317697696036E-11   499.9996989885352
+ sampling_check =            1
+        2       0.12463103503938E-14    49.1792921222630
+ sampling_check =            1

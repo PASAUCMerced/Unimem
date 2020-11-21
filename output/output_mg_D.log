@@ -1,0 +1,93 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+NVM
+ sizeof(nbr)                  396
+ sizeof(msg_type)                   36
+ sizeof(msg_id)                   72
+ sizeof(ir)                   44
+ sizeof(m1)                   44
+ sizeof(m2)                   44
+ sizeof(m3)                   44
+ sizeof(buff)             67371264
+ sizeof(u)           9884374416
+ sizeof(v)           8640364608
+ sizeof(r)           9884374416
+current pos = -1
+size: 67371264
+size: 1294439824
+size: 50430016
+size: 1294439824
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ call zero3
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 19651 on node n03 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

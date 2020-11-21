@@ -1,0 +1,962 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:            163800060
+ a: add:            828329824 size:            327600120
+ x: add:           1155929944 size:              1200016
+ z: add:           1157129960 size:              1200016
+ p: add:           1158329976 size:              1200016
+ r: add:           1160730008 size:              1200016
+ q: add:           1159529992 size:              1200016
+loc(sm) = 0x45853e00	loc(add)=0x7ffd0d3c10a8
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+ sampling_check =            0
+ sampling_check =            1
+ Phase 1: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+pc=40293c, @=1158417752, src level=L3 Hit, latency=44
+pc=40293c, @=1158860904, src level=L3 Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=402936, @=829828648, src level=LFB Hit, latency=72
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=40293c, @=1159429392, src level=L3 Hit, latency=47
+pc=40293c, @=1158432328, src level=L3 Hit, latency=48
+pc=40293c, @=1158911592, src level=L3 Hit, latency=54
+pc=40293c, @=1159311136, src level=L3 Hit, latency=39
+pc=402932, @=8204288, src level=Local RAM Hit, latency=202
+pc=402932, @=8384384, src level=Local RAM Hit, latency=241
+pc=40293c, @=1159152576, src level=L3 Hit, latency=73
+pc=402936, @=833187280, src level=LFB Hit, latency=182
+pc=402936, @=833559552, src level=LFB Hit, latency=132
+pc=40293c, @=1158416440, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=40293c, @=1158693928, src level=L3 Hit, latency=39
+pc=40293c, @=1159403784, src level=L3 Hit, latency=54
+pc=402942, @=140724825488616, src level=L1 Hit, latency=149
+pc=402942, @=140724825488616, src level=L1 Hit, latency=183
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=402942, @=140724825488616, src level=L1 Hit, latency=228
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402932, @=10833764, src level=LFB Hit, latency=96
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=402936, @=838469192, src level=LFB Hit, latency=86
+pc=402942, @=140724825488616, src level=L1 Hit, latency=92
+pc=40293c, @=1159371960, src level=L3 Hit, latency=67
+pc=40293c, @=1159361424, src level=L3 Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=131
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1158939944, src level=L3 Hit, latency=44
+pc=402942, @=140724825488616, src level=L1 Hit, latency=130
+pc=40293c, @=1158719664, src level=L3 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=265
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=255
+pc=40293c, @=1159498376, src level=L3 Hit, latency=58
+pc=402942, @=140724825488616, src level=L1 Hit, latency=185
+pc=402936, @=843823176, src level=LFB Hit, latency=70
+pc=402936, @=844209608, src level=LFB Hit, latency=70
+pc=40293c, @=1158691112, src level=L3 Hit, latency=54
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=40293c, @=1158906840, src level=L3 Hit, latency=63
+pc=402932, @=15024224, src level=LFB Hit, latency=131
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=40293c, @=1158583984, src level=L3 Hit, latency=65
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402942, @=140724825488616, src level=L1 Hit, latency=121
+pc=40293c, @=1159018152, src level=L3 Hit, latency=41
+pc=40293c, @=1158605424, src level=Local RAM Hit, latency=66
+pc=40293c, @=1158688248, src level=L3 Hit, latency=65
+pc=402942, @=140724825488616, src level=L1 Hit, latency=243
+pc=402942, @=140724825488616, src level=L1 Hit, latency=689
+pc=402932, @=17119196, src level=LFB Hit, latency=170
+pc=402936, @=850285712, src level=LFB Hit, latency=116
+pc=402942, @=140724825488616, src level=L1 Hit, latency=132
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=224
+pc=402936, @=851823616, src level=LFB Hit, latency=106
+pc=402932, @=18265796, src level=LFB Hit, latency=224
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=402942, @=140724825488616, src level=L1 Hit, latency=204
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=402942, @=140724825488616, src level=L1 Hit, latency=327
+pc=402942, @=140724825488616, src level=L1 Hit, latency=146
+pc=40293c, @=1159339240, src level=LFB Hit, latency=78
+pc=40293c, @=1159338672, src level=L3 Hit, latency=42
+pc=402936, @=855261488, src level=LFB Hit, latency=46
+pc=402936, @=855647672, src level=LFB Hit, latency=74
+pc=402942, @=140724825488616, src level=L1 Hit, latency=129
+pc=40293c, @=1158581584, src level=L3 Hit, latency=55
+pc=40293c, @=1158915280, src level=L3 Hit, latency=45
+pc=402942, @=140724825488616, src level=L1 Hit, latency=134
+pc=40293c, @=1159399080, src level=L3 Hit, latency=55
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402936, @=858330072, src level=LFB Hit, latency=87
+pc=402936, @=858699320, src level=LFB Hit, latency=70
+pc=402942, @=140724825488616, src level=L1 Hit, latency=128
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1158672240, src level=L3 Hit, latency=62
+pc=40293c, @=1158883656, src level=L3 Hit, latency=53
+pc=402936, @=860552616, src level=LFB Hit, latency=171
+pc=40293c, @=1158880496, src level=L3 Hit, latency=58
+pc=40293c, @=1158810800, src level=L2 Hit, latency=31
+pc=40293c, @=1159190480, src level=L3 Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=166
+pc=402942, @=140724825488616, src level=L1 Hit, latency=261
+pc=40293c, @=1158358744, src level=L3 Hit, latency=51
+pc=402936, @=863216656, src level=LFB Hit, latency=95
+pc=40293c, @=1158489800, src level=L3 Hit, latency=58
+pc=40293c, @=1159208520, src level=L3 Hit, latency=50
+pc=402936, @=864370440, src level=LFB Hit, latency=121
+pc=402942, @=140724825488616, src level=L1 Hit, latency=143
+pc=40293c, @=1158455064, src level=L3 Hit, latency=42
+pc=402936, @=865481176, src level=LFB Hit, latency=204
+pc=40293c, @=1158637208, src level=L3 Hit, latency=39
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=40293c, @=1158517120, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=87
+pc=402936, @=867407432, src level=LFB Hit, latency=89
+pc=402936, @=867791632, src level=LFB Hit, latency=201
+pc=402942, @=140724825488616, src level=L1 Hit, latency=157
+pc=402936, @=868540616, src level=LFB Hit, latency=126
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1159432160, src level=L3 Hit, latency=56
+pc=40293c, @=1158902144, src level=L3 Hit, latency=37
+pc=402942, @=140724825488616, src level=L1 Hit, latency=178
+pc=40293c, @=1158904264, src level=L3 Hit, latency=63
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=402942, @=140724825488616, src level=L1 Hit, latency=135
+pc=402942, @=140724825488616, src level=L1 Hit, latency=216
+pc=402942, @=140724825488616, src level=L1 Hit, latency=207
+pc=402936, @=872350656, src level=LFB Hit, latency=34
+pc=40293c, @=1159375296, src level=L3 Hit, latency=96
+pc=40293c, @=1159397832, src level=L3 Hit, latency=59
+pc=40293c, @=1158504720, src level=L3 Hit, latency=37
+pc=40293c, @=1159187120, src level=L3 Hit, latency=41
+pc=402936, @=874244032, src level=Local RAM Hit, latency=243
+pc=40293c, @=1158765520, src level=L3 Hit, latency=42
+pc=402932, @=29680136, src level=LFB Hit, latency=201
+pc=402936, @=875413480, src level=LFB Hit, latency=60
+pc=40293c, @=1159019360, src level=L3 Hit, latency=38
+pc=40293c, @=1158361856, src level=L3 Hit, latency=49
+pc=40293c, @=1158528776, src level=L3 Hit, latency=58
+pc=402942, @=140724825488616, src level=L1 Hit, latency=195
+pc=40293c, @=1158519040, src level=L3 Hit, latency=44
+pc=402936, @=877690336, src level=LFB Hit, latency=87
+pc=402942, @=140724825488616, src level=L1 Hit, latency=195
+pc=402942, @=140724825488616, src level=L1 Hit, latency=240
+pc=40293c, @=1159520568, src level=L3 Hit, latency=40
+pc=40293c, @=1159123328, src level=L3 Hit, latency=42
+pc=402942, @=140724825488616, src level=L1 Hit, latency=131
+pc=402942, @=140724825488616, src level=L1 Hit, latency=222
+pc=40293c, @=1159304560, src level=L3 Hit, latency=40
+pc=402932, @=32559700, src level=LFB Hit, latency=177
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=40293c, @=1158338568, src level=L3 Hit, latency=37
+pc=402936, @=881908368, src level=LFB Hit, latency=222
+pc=402932, @=33309696, src level=Local RAM Hit, latency=239
+pc=402942, @=140724825488616, src level=L1 Hit, latency=173
+pc=402942, @=140724825488616, src level=L1 Hit, latency=234
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=402936, @=883822168, src level=LFB Hit, latency=32
+pc=402936, @=884203232, src level=LFB Hit, latency=211
+pc=402942, @=140724825488616, src level=L1 Hit, latency=186
+pc=40293c, @=1158337696, src level=L3 Hit, latency=54
+pc=402936, @=885363960, src level=LFB Hit, latency=147
+pc=402936, @=885747960, src level=LFB Hit, latency=32
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=40293c, @=1158838872, src level=L3 Hit, latency=42
+pc=402942, @=140724825488616, src level=L1 Hit, latency=233
+pc=402936, @=887266824, src level=LFB Hit, latency=99
+pc=402936, @=887653168, src level=LFB Hit, latency=53
+pc=402936, @=888035864, src level=LFB Hit, latency=36
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=402936, @=888807032, src level=LFB Hit, latency=130
+pc=402942, @=140724825488616, src level=L1 Hit, latency=126
+pc=402936, @=889573600, src level=LFB Hit, latency=179
+pc=40293c, @=1159108216, src level=L3 Hit, latency=52
+pc=40293c, @=1158951056, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=139
+pc=40293c, @=1159445664, src level=L3 Hit, latency=43
+pc=40293c, @=1159417736, src level=L3 Hit, latency=43
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=402936, @=892606088, src level=LFB Hit, latency=218
+pc=40293c, @=1158971968, src level=L3 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=243
+pc=402936, @=893764544, src level=LFB Hit, latency=120
+pc=402936, @=894156120, src level=LFB Hit, latency=98
+pc=402936, @=894527296, src level=LFB Hit, latency=26
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=402936, @=895290368, src level=LFB Hit, latency=47
+pc=402936, @=895683024, src level=LFB Hit, latency=55
+pc=40293c, @=1159497648, src level=L3 Hit, latency=37
+pc=402942, @=140724825488616, src level=L1 Hit, latency=471
+pc=40293c, @=1159126264, src level=L3 Hit, latency=42
+pc=402942, @=140724825488616, src level=L1 Hit, latency=230
+pc=402936, @=897601984, src level=LFB Hit, latency=93
+pc=40293c, @=1158511984, src level=L3 Hit, latency=52
+pc=402936, @=898388864, src level=LFB Hit, latency=94
+pc=40293c, @=1158345968, src level=L3 Hit, latency=53
+pc=402942, @=140724825488616, src level=L1 Hit, latency=171
+pc=402936, @=899520656, src level=LFB Hit, latency=94
+pc=402936, @=899909760, src level=Local RAM Hit, latency=248
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=40293c, @=1158790184, src level=L3 Hit, latency=49
+pc=40293c, @=1158826600, src level=L3 Hit, latency=51
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=402936, @=902174208, src level=LFB Hit, latency=185
+pc=402936, @=902544296, src level=LFB Hit, latency=195
+pc=40293c, @=1159381200, src level=L3 Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=221
+pc=402936, @=903684848, src level=LFB Hit, latency=66
+pc=40293c, @=1159515992, src level=L3 Hit, latency=75
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=40293c, @=1158428584, src level=L3 Hit, latency=38
+pc=40293c, @=1158785840, src level=L3 Hit, latency=60
+pc=402932, @=45161120, src level=LFB Hit, latency=846
+pc=402942, @=140724825488616, src level=L1 Hit, latency=128
+pc=402942, @=140724825488616, src level=L1 Hit, latency=222
+pc=40293c, @=1158951232, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=208
+pc=40293c, @=1159251544, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=242
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1158929192, src level=L3 Hit, latency=45
+pc=40293c, @=1159001936, src level=L3 Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=40293c, @=1159379736, src level=L3 Hit, latency=36
+pc=402936, @=910625008, src level=LFB Hit, latency=38
+pc=40293c, @=1158533464, src level=L3 Hit, latency=49
+pc=40293c, @=1159145128, src level=L3 Hit, latency=45
+pc=402932, @=48057920, src level=Local RAM Hit, latency=218
+pc=402936, @=912162200, src level=LFB Hit, latency=186
+pc=402942, @=140724825488616, src level=L1 Hit, latency=209
+pc=40293c, @=1159018360, src level=L3 Hit, latency=68
+pc=40293c, @=1158428192, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=626
+pc=402942, @=140724825488616, src level=L1 Hit, latency=221
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=402936, @=914841440, src level=LFB Hit, latency=59
+pc=40293c, @=1158581984, src level=L3 Hit, latency=49
+pc=40293c, @=1158464200, src level=L3 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=402932, @=50338504, src level=LFB Hit, latency=212
+pc=402942, @=140724825488616, src level=L1 Hit, latency=87
+pc=402936, @=917085712, src level=LFB Hit, latency=226
+pc=40293c, @=1159144496, src level=L3 Hit, latency=39
+pc=40293c, @=1158759400, src level=L3 Hit, latency=64
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=402936, @=918605264, src level=LFB Hit, latency=90
+pc=40293c, @=1158781960, src level=L3 Hit, latency=53
+pc=40293c, @=1159008504, src level=Local RAM Hit, latency=36
+pc=402942, @=140724825488616, src level=L1 Hit, latency=218
+pc=40293c, @=1158574848, src level=L3 Hit, latency=63
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=40293c, @=1158742384, src level=L2 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=124
+pc=402932, @=52993256, src level=L1 Hit, latency=81
+pc=402942, @=140724825488616, src level=L1 Hit, latency=159
+pc=402936, @=922430264, src level=LFB Hit, latency=51
+pc=402942, @=140724825488616, src level=L1 Hit, latency=122
+pc=40293c, @=1159386224, src level=L3 Hit, latency=56
+pc=402936, @=923569176, src level=LFB Hit, latency=194
+pc=402936, @=923946648, src level=LFB Hit, latency=88
+pc=40293c, @=1158368888, src level=L3 Hit, latency=37
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402936, @=925095816, src level=LFB Hit, latency=81
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=402942, @=140724825488616, src level=L1 Hit, latency=158
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=40293c, @=1159088712, src level=L3 Hit, latency=43
+pc=402936, @=926994904, src level=LFB Hit, latency=43
+pc=40293c, @=1159150032, src level=L3 Hit, latency=51
+pc=40293c, @=1158950440, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=232
+pc=402942, @=140724825488616, src level=L1 Hit, latency=148
+pc=40293c, @=1158655200, src level=L3 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=207
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=402942, @=140724825488616, src level=L1 Hit, latency=129
+pc=402942, @=140724825488616, src level=L1 Hit, latency=160
+pc=402942, @=140724825488616, src level=L1 Hit, latency=230
+pc=40293c, @=1158516880, src level=L3 Hit, latency=42
+pc=402936, @=932004312, src level=LFB Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=134
+pc=40293c, @=1159411808, src level=L3 Hit, latency=40
+pc=40293c, @=1158988920, src level=L3 Hit, latency=53
+pc=402932, @=58927428, src level=LFB Hit, latency=232
+pc=402942, @=140724825488616, src level=L1 Hit, latency=148
+pc=402936, @=934282184, src level=LFB Hit, latency=63
+pc=402936, @=934652104, src level=LFB Hit, latency=97
+pc=402942, @=140724825488616, src level=L1 Hit, latency=245
+pc=40293c, @=1159353576, src level=L3 Hit, latency=53
+pc=402936, @=935817824, src level=LFB Hit, latency=71
+pc=402936, @=936194912, src level=LFB Hit, latency=35
+pc=402942, @=140724825488616, src level=L1 Hit, latency=145
+pc=40293c, @=1159152552, src level=L3 Hit, latency=39
+pc=40293c, @=1159463808, src level=L3 Hit, latency=54
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=40293c, @=1159012624, src level=L3 Hit, latency=51
+pc=40293c, @=1159339224, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=149
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=40293c, @=1159041360, src level=L3 Hit, latency=72
+pc=40293c, @=1158811168, src level=L3 Hit, latency=38
+pc=40293c, @=1158718672, src level=L3 Hit, latency=40
+pc=40293c, @=1158996320, src level=L3 Hit, latency=50
+pc=40293c, @=1158775296, src level=L3 Hit, latency=53
+pc=402942, @=140724825488616, src level=L1 Hit, latency=135
+pc=402942, @=140724825488616, src level=L1 Hit, latency=143
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=40293c, @=1158416032, src level=L3 Hit, latency=53
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=402936, @=943434152, src level=LFB Hit, latency=104
+pc=402932, @=64073344, src level=Local RAM Hit, latency=230
+pc=402942, @=140724825488616, src level=L1 Hit, latency=119
+pc=402942, @=140724825488616, src level=L1 Hit, latency=172
+pc=402942, @=140724825488616, src level=L1 Hit, latency=201
+pc=402942, @=140724825488616, src level=L1 Hit, latency=206
+pc=40293c, @=1158538424, src level=L3 Hit, latency=55
+pc=40293c, @=1158716360, src level=L3 Hit, latency=64
+pc=40293c, @=1158366776, src level=L3 Hit, latency=56
+pc=402942, @=140724825488616, src level=L1 Hit, latency=149
+pc=402936, @=947211904, src level=LFB Hit, latency=53
+pc=40293c, @=1159315784, src level=L3 Hit, latency=46
+pc=40293c, @=1158845112, src level=L3 Hit, latency=70
+pc=402936, @=948379760, src level=LFB Hit, latency=34
+pc=402942, @=140724825488616, src level=L1 Hit, latency=205
+pc=40293c, @=1158361120, src level=L3 Hit, latency=48
+pc=402936, @=949532672, src level=LFB Hit, latency=43
+pc=402936, @=949912344, src level=LFB Hit, latency=33
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1159237592, src level=L3 Hit, latency=44
+pc=402942, @=140724825488616, src level=L1 Hit, latency=243
+pc=402932, @=67885672, src level=LFB Hit, latency=46
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=402942, @=140724825488616, src level=L1 Hit, latency=100
+pc=40293c, @=1158343496, src level=L3 Hit, latency=41
+pc=40293c, @=1158905640, src level=L3 Hit, latency=53
+pc=40293c, @=1158781424, src level=L3 Hit, latency=72
+pc=40293c, @=1159064864, src level=L3 Hit, latency=43
+pc=402936, @=954066128, src level=LFB Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=402942, @=140724825488616, src level=L1 Hit, latency=103
+pc=40293c, @=1159458600, src level=L3 Hit, latency=38
+pc=40293c, @=1158658616, src level=L3 Hit, latency=51
+pc=402936, @=955944320, src level=LFB Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=402936, @=957481728, src level=LFB Hit, latency=91
+pc=402936, @=957859224, src level=LFB Hit, latency=47
+pc=402936, @=958252208, src level=LFB Hit, latency=46
+pc=402936, @=958631696, src level=LFB Hit, latency=35
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=40293c, @=1159303552, src level=L3 Hit, latency=38
+pc=402936, @=959779552, src level=LFB Hit, latency=206
+pc=40293c, @=1158557392, src level=L3 Hit, latency=53
+pc=402936, @=960534232, src level=LFB Hit, latency=94
+pc=402932, @=72619920, src level=LFB Hit, latency=801
+pc=402942, @=140724825488616, src level=L1 Hit, latency=158
+pc=40293c, @=1158559392, src level=L3 Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=120
+pc=40293c, @=1159285600, src level=L3 Hit, latency=48
+pc=40293c, @=1158433760, src level=L3 Hit, latency=37
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=162
+pc=402942, @=140724825488616, src level=L1 Hit, latency=285
+pc=402936, @=964326376, src level=LFB Hit, latency=25
+pc=402942, @=140724825488616, src level=L1 Hit, latency=275
+pc=402932, @=74715104, src level=LFB Hit, latency=111
+pc=40293c, @=1158974280, src level=L3 Hit, latency=46
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402936, @=966235752, src level=LFB Hit, latency=45
+pc=402936, @=966630680, src level=LFB Hit, latency=88
+pc=402936, @=966996928, src level=LFB Hit, latency=68
+pc=40293c, @=1159491904, src level=L3 Hit, latency=43
+pc=402936, @=967754368, src level=LFB Hit, latency=123
+pc=402932, @=76229208, src level=LFB Hit, latency=184
+pc=402936, @=968500552, src level=LFB Hit, latency=213
+pc=402932, @=76607700, src level=LFB Hit, latency=123
+pc=402942, @=140724825488616, src level=L1 Hit, latency=167
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=402942, @=140724825488616, src level=L1 Hit, latency=133
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402932, @=77562208, src level=LFB Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=402936, @=971559576, src level=LFB Hit, latency=56
+pc=402942, @=140724825488616, src level=L1 Hit, latency=177
+pc=402942, @=140724825488616, src level=L1 Hit, latency=146
+pc=402936, @=972700360, src level=LFB Hit, latency=78
+pc=402936, @=973087616, src level=LFB Hit, latency=130
+pc=402942, @=140724825488616, src level=L1 Hit, latency=159
+pc=40293c, @=1158436336, src level=L3 Hit, latency=46
+pc=402942, @=140724825488616, src level=L1 Hit, latency=158
+pc=402936, @=974591192, src level=LFB Hit, latency=90
+pc=402942, @=140724825488616, src level=L1 Hit, latency=234
+pc=40293c, @=1158806816, src level=L3 Hit, latency=46
+pc=402942, @=140724825488616, src level=L1 Hit, latency=130
+pc=40293c, @=1159425200, src level=Local RAM Hit, latency=48
+pc=402936, @=976502888, src level=LFB Hit, latency=147
+pc=40293c, @=1159146464, src level=L3 Hit, latency=44
+pc=40293c, @=1159148648, src level=L3 Hit, latency=42
+pc=402936, @=977676264, src level=LFB Hit, latency=191
+pc=402936, @=978060512, src level=LFB Hit, latency=32
+pc=402942, @=140724825488616, src level=L1 Hit, latency=148
+pc=402936, @=978826272, src level=LFB Hit, latency=140
+pc=402942, @=140724825488616, src level=L1 Hit, latency=215
+pc=40293c, @=1158804504, src level=L3 Hit, latency=47
+pc=402936, @=979979504, src level=LFB Hit, latency=162
+pc=40293c, @=1158377152, src level=L3 Hit, latency=87
+pc=402932, @=82541476, src level=LFB Hit, latency=72
+pc=402936, @=981144128, src level=L3 Hit, latency=218
+pc=40293c, @=1158630544, src level=L3 Hit, latency=41
+pc=40293c, @=1159264480, src level=L3 Hit, latency=51
+pc=402936, @=982289792, src level=LFB Hit, latency=96
+pc=402942, @=140724825488616, src level=L1 Hit, latency=211
+pc=402936, @=983061184, src level=LFB Hit, latency=74
+pc=402936, @=983437104, src level=LFB Hit, latency=185
+pc=402942, @=140724825488616, src level=L1 Hit, latency=134
+pc=40293c, @=1158647216, src level=L3 Hit, latency=52
+pc=402942, @=140724825488616, src level=L1 Hit, latency=129
+pc=402942, @=140724825488616, src level=L1 Hit, latency=195
+pc=402942, @=140724825488616, src level=L1 Hit, latency=157
+pc=402932, @=85036616, src level=LFB Hit, latency=215
+pc=402936, @=986126568, src level=LFB Hit, latency=198
+pc=402942, @=140724825488616, src level=L1 Hit, latency=127
+pc=40293c, @=1158445248, src level=L3 Hit, latency=65
+pc=402942, @=140724825488616, src level=L1 Hit, latency=186
+pc=40293c, @=1159071600, src level=L3 Hit, latency=41
+pc=40293c, @=1159252280, src level=L3 Hit, latency=58
+pc=402936, @=988422304, src level=LFB Hit, latency=38
+pc=40293c, @=1159145208, src level=L3 Hit, latency=57
+pc=40293c, @=1158971896, src level=L3 Hit, latency=47
+pc=402936, @=989572328, src level=L1 Hit, latency=83
+pc=40293c, @=1158492944, src level=L3 Hit, latency=40
+pc=40293c, @=1158504792, src level=L3 Hit, latency=102
+pc=402936, @=990719328, src level=LFB Hit, latency=162
+pc=40293c, @=1158809496, src level=L3 Hit, latency=43
+pc=40293c, @=1159413168, src level=L3 Hit, latency=41
+pc=40293c, @=1159165160, src level=L3 Hit, latency=60
+pc=402942, @=140724825488616, src level=L1 Hit, latency=203
+pc=40293c, @=1159437688, src level=L3 Hit, latency=63
+pc=402936, @=992983536, src level=LFB Hit, latency=52
+pc=40293c, @=1159443160, src level=L3 Hit, latency=35
+pc=40293c, @=1158713728, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=226
+pc=40293c, @=1159060280, src level=L3 Hit, latency=44
+pc=402936, @=994902232, src level=LFB Hit, latency=78
+pc=402942, @=140724825488616, src level=L1 Hit, latency=272
+pc=40293c, @=1158516544, src level=L3 Hit, latency=47
+pc=402942, @=140724825488616, src level=L1 Hit, latency=117
+pc=40293c, @=1158419248, src level=L3 Hit, latency=53
+pc=402936, @=996815360, src level=LFB Hit, latency=221
+pc=40293c, @=1158426520, src level=L3 Hit, latency=56
+pc=402942, @=140724825488616, src level=L1 Hit, latency=173
+pc=40293c, @=1158360440, src level=L3 Hit, latency=53
+pc=402936, @=998338952, src level=LFB Hit, latency=27
+pc=402942, @=140724825488616, src level=L1 Hit, latency=130
+pc=402942, @=140724825488616, src level=L1 Hit, latency=240
+pc=40293c, @=1158624816, src level=L3 Hit, latency=103
+pc=402942, @=140724825488616, src level=L1 Hit, latency=146
+pc=402942, @=140724825488616, src level=L1 Hit, latency=130
+pc=40293c, @=1159299552, src level=L3 Hit, latency=39
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=402936, @=1001411368, src level=LFB Hit, latency=59
+pc=40293c, @=1158432272, src level=L3 Hit, latency=53
+pc=40293c, @=1158831824, src level=L3 Hit, latency=49
+pc=40293c, @=1158391016, src level=L3 Hit, latency=47
+pc=402942, @=140724825488616, src level=L1 Hit, latency=271
+pc=40293c, @=1158387424, src level=Local RAM Hit, latency=48
+pc=402942, @=140724825488616, src level=L1 Hit, latency=137
+pc=40293c, @=1159221872, src level=L2 Hit, latency=45
+pc=402942, @=140724825488616, src level=L1 Hit, latency=181
+pc=402936, @=1004819528, src level=LFB Hit, latency=68
+pc=40293c, @=1158926712, src level=L3 Hit, latency=67
+pc=402936, @=1005560104, src level=LFB Hit, latency=167
+pc=402942, @=140724825488616, src level=L1 Hit, latency=175
+pc=402942, @=140724825488616, src level=L1 Hit, latency=160
+pc=402942, @=140724825488616, src level=L1 Hit, latency=259
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=40293c, @=1158985680, src level=L3 Hit, latency=45
+pc=40293c, @=1159528184, src level=L3 Hit, latency=67
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402936, @=1008601912, src level=LFB Hit, latency=32
+pc=402942, @=140724825488616, src level=L1 Hit, latency=139
+pc=40293c, @=1159394584, src level=L3 Hit, latency=44
+pc=402942, @=140724825488616, src level=L1 Hit, latency=128
+pc=402936, @=1010180664, src level=LFB Hit, latency=124
+pc=40293c, @=1159512912, src level=L3 Hit, latency=59
+pc=402936, @=1010928336, src level=LFB Hit, latency=185
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=40293c, @=1158677448, src level=L2 Hit, latency=29
+pc=40293c, @=1158918656, src level=L3 Hit, latency=98
+pc=402942, @=140724825488616, src level=L1 Hit, latency=131
+pc=402942, @=140724825488616, src level=L1 Hit, latency=125
+pc=40293c, @=1159009072, src level=L3 Hit, latency=51
+pc=402936, @=1013992864, src level=LFB Hit, latency=161
+pc=402942, @=140724825488616, src level=L1 Hit, latency=204
+pc=40293c, @=1159346136, src level=L3 Hit, latency=45
+pc=402942, @=140724825488616, src level=L1 Hit, latency=158
+pc=402942, @=140724825488616, src level=L1 Hit, latency=80
+pc=402936, @=1015913680, src level=LFB Hit, latency=158
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=40293c, @=1158824736, src level=L3 Hit, latency=85
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=402932, @=100866388, src level=LFB Hit, latency=201
+pc=402936, @=1017786592, src level=LFB Hit, latency=191
+pc=402936, @=1018165624, src level=LFB Hit, latency=61
+pc=40293c, @=1158359792, src level=L3 Hit, latency=50
+pc=40293c, @=1159421032, src level=L3 Hit, latency=51
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=145
+pc=40293c, @=1158766056, src level=L3 Hit, latency=48
+pc=402942, @=140724825488616, src level=L1 Hit, latency=160
+pc=40293c, @=1158414368, src level=L3 Hit, latency=82
+pc=402942, @=140724825488616, src level=L1 Hit, latency=223
+pc=402936, @=1021592448, src level=LFB Hit, latency=39
+pc=40293c, @=1158531016, src level=L3 Hit, latency=42
+pc=40293c, @=1159209616, src level=L3 Hit, latency=37
+pc=40293c, @=1158449408, src level=L3 Hit, latency=41
+pc=402936, @=1023091848, src level=LFB Hit, latency=53
+pc=40293c, @=1158472192, src level=L3 Hit, latency=60
+pc=402942, @=140724825488616, src level=L1 Hit, latency=134
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=402942, @=140724825488616, src level=L1 Hit, latency=135
+pc=40293c, @=1158798520, src level=L3 Hit, latency=44
+pc=40293c, @=1159002472, src level=L3 Hit, latency=40
+pc=40293c, @=1158954896, src level=L3 Hit, latency=54
+pc=40293c, @=1158821688, src level=Local RAM Hit, latency=56
+pc=40293c, @=1159398112, src level=L3 Hit, latency=53
+pc=402936, @=1026881024, src level=LFB Hit, latency=83
+pc=40293c, @=1159261400, src level=L3 Hit, latency=58
+pc=40293c, @=1158415472, src level=L3 Hit, latency=42
+pc=402942, @=140724825488616, src level=L1 Hit, latency=296
+pc=40293c, @=1159005432, src level=L3 Hit, latency=39
+pc=402942, @=140724825488616, src level=L1 Hit, latency=293
+pc=402942, @=140724825488616, src level=L1 Hit, latency=175
+pc=402942, @=140724825488616, src level=L1 Hit, latency=900
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=183
+pc=40293c, @=1158643152, src level=L3 Hit, latency=42
+pc=40293c, @=1158611568, src level=L3 Hit, latency=66
+pc=402936, @=1031451200, src level=LFB Hit, latency=180
+pc=402942, @=140724825488616, src level=L1 Hit, latency=284
+pc=402942, @=140724825488616, src level=L1 Hit, latency=205
+pc=40293c, @=1159521208, src level=L3 Hit, latency=47
+pc=402942, @=140724825488616, src level=L1 Hit, latency=214
+pc=40293c, @=1159018136, src level=L3 Hit, latency=50
+pc=40293c, @=1158865696, src level=L3 Hit, latency=40
+pc=402936, @=1034123528, src level=LFB Hit, latency=111
+pc=402942, @=140724825488616, src level=L1 Hit, latency=230
+pc=402942, @=140724825488616, src level=L1 Hit, latency=89
+pc=402942, @=140724825488616, src level=L1 Hit, latency=195
+pc=402942, @=140724825488616, src level=L1 Hit, latency=157
+pc=40293c, @=1158472496, src level=L3 Hit, latency=46
+pc=40293c, @=1158616456, src level=L3 Hit, latency=43
+pc=402936, @=1036783504, src level=LFB Hit, latency=117
+pc=40293c, @=1158528528, src level=L3 Hit, latency=56
+pc=40293c, @=1158888328, src level=L3 Hit, latency=54
+pc=40293c, @=1159027064, src level=L3 Hit, latency=55
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402942, @=140724825488616, src level=L1 Hit, latency=223
+pc=40293c, @=1158388960, src level=L3 Hit, latency=44
+pc=402932, @=111894368, src level=LFB Hit, latency=101
+pc=40293c, @=1158751176, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=200
+pc=402942, @=140724825488616, src level=L1 Hit, latency=185
+pc=402936, @=1040982416, src level=LFB Hit, latency=65
+pc=40293c, @=1159048984, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=130
+pc=40293c, @=1158766640, src level=L3 Hit, latency=35
+pc=402932, @=113424260, src level=LFB Hit, latency=220
+pc=402936, @=1042902120, src level=LFB Hit, latency=75
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=402936, @=1043665536, src level=LFB Hit, latency=27
+pc=402942, @=140724825488616, src level=L1 Hit, latency=157
+pc=402942, @=140724825488616, src level=L1 Hit, latency=149
+pc=402932, @=114562504, src level=LFB Hit, latency=211
+pc=402942, @=140724825488616, src level=L1 Hit, latency=137
+pc=402936, @=1045560360, src level=LFB Hit, latency=199
+pc=402936, @=1045940360, src level=LFB Hit, latency=95
+pc=402936, @=1046337816, src level=LFB Hit, latency=63
+pc=402942, @=140724825488616, src level=L1 Hit, latency=231
+pc=402942, @=140724825488616, src level=L1 Hit, latency=215
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=40293c, @=1159172848, src level=L3 Hit, latency=55
+pc=40293c, @=1159149728, src level=L3 Hit, latency=58
+pc=40293c, @=1159306704, src level=L3 Hit, latency=44
+pc=402942, @=140724825488616, src level=L1 Hit, latency=176
+pc=40293c, @=1158333208, src level=L3 Hit, latency=60
+pc=402942, @=140724825488616, src level=L1 Hit, latency=164
+pc=402942, @=140724825488616, src level=L1 Hit, latency=162
+pc=402942, @=140724825488616, src level=L1 Hit, latency=165
+pc=40293c, @=1159236448, src level=L3 Hit, latency=64
+pc=402936, @=1051286872, src level=LFB Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=402936, @=1052042192, src level=LFB Hit, latency=31
+pc=40293c, @=1158429000, src level=L3 Hit, latency=37
+pc=40293c, @=1158863752, src level=L3 Hit, latency=53
+pc=40293c, @=1158403424, src level=L3 Hit, latency=52
+pc=402936, @=1053571096, src level=LFB Hit, latency=62
+pc=40293c, @=1159512936, src level=L3 Hit, latency=53
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=402942, @=140724825488616, src level=L1 Hit, latency=177
+pc=402942, @=140724825488616, src level=L1 Hit, latency=135
+pc=402936, @=1055859400, src level=LFB Hit, latency=45
+pc=40293c, @=1159217552, src level=L3 Hit, latency=62
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=202
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402942, @=140724825488616, src level=L1 Hit, latency=220
+pc=402942, @=140724825488616, src level=L1 Hit, latency=112
+pc=40293c, @=1158478528, src level=L3 Hit, latency=99
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=40293c, @=1159453408, src level=L3 Hit, latency=54
+pc=402942, @=140724825488616, src level=L1 Hit, latency=237
+pc=40293c, @=1159377256, src level=L3 Hit, latency=51
+pc=402936, @=1060782024, src level=LFB Hit, latency=223
+pc=402936, @=1061169296, src level=LFB Hit, latency=87
+pc=402942, @=140724825488616, src level=L1 Hit, latency=189
+pc=40293c, @=1158493112, src level=L3 Hit, latency=49
+pc=402936, @=1062300128, src level=LFB Hit, latency=135
+pc=402936, @=1062703784, src level=LFB Hit, latency=59
+pc=402936, @=1063068816, src level=LFB Hit, latency=235
+pc=40293c, @=1158584912, src level=L3 Hit, latency=57
+pc=40293c, @=1158986248, src level=L3 Hit, latency=35
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=402942, @=140724825488616, src level=L1 Hit, latency=157
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=402942, @=140724825488616, src level=L1 Hit, latency=151
+pc=40293c, @=1158902264, src level=L3 Hit, latency=54
+pc=402942, @=140724825488616, src level=L1 Hit, latency=215
+pc=402936, @=1066506224, src level=LFB Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=137
+pc=402936, @=1067281752, src level=LFB Hit, latency=208
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=40293c, @=1159016448, src level=L3 Hit, latency=51
+pc=40293c, @=1159274304, src level=Local RAM Hit, latency=50
+pc=402936, @=1068784832, src level=LFB Hit, latency=82
+pc=402942, @=140724825488616, src level=L1 Hit, latency=145
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=402942, @=140724825488616, src level=L1 Hit, latency=156
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=40293c, @=1159527584, src level=L3 Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=304
+pc=40293c, @=1159349128, src level=L3 Hit, latency=44
+pc=40293c, @=1158361336, src level=L3 Hit, latency=57
+pc=40293c, @=1158936168, src level=L3 Hit, latency=40
+pc=402942, @=140724825488616, src level=L1 Hit, latency=226
+pc=402942, @=140724825488616, src level=L1 Hit, latency=139
+pc=402942, @=140724825488616, src level=L1 Hit, latency=184
+pc=402936, @=1073719616, src level=LFB Hit, latency=79
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=40293c, @=1158824792, src level=L3 Hit, latency=74
+pc=402936, @=1074868520, src level=LFB Hit, latency=192
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1158504176, src level=L3 Hit, latency=47
+pc=402942, @=140724825488616, src level=L1 Hit, latency=153
+pc=40293c, @=1159458160, src level=L3 Hit, latency=54
+pc=40293c, @=1158499768, src level=L3 Hit, latency=50
+pc=402936, @=1077173272, src level=LFB Hit, latency=50
+pc=402942, @=140724825488616, src level=L1 Hit, latency=138
+pc=402936, @=1077948176, src level=LFB Hit, latency=86
+pc=402936, @=1078332376, src level=LFB Hit, latency=219
+pc=402932, @=131526732, src level=LFB Hit, latency=183
+pc=402932, @=131717720, src level=LFB Hit, latency=182
+pc=40293c, @=1158860176, src level=L3 Hit, latency=46
+pc=402936, @=1079873496, src level=LFB Hit, latency=82
+pc=402942, @=140724825488616, src level=L1 Hit, latency=109
+pc=402936, @=1080618584, src level=LFB Hit, latency=56
+pc=402936, @=1081003032, src level=LFB Hit, latency=33
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=402942, @=140724825488616, src level=L1 Hit, latency=143
+pc=40293c, @=1158915664, src level=L3 Hit, latency=36
+pc=402936, @=1082548760, src level=LFB Hit, latency=60
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=40293c, @=1158355040, src level=L3 Hit, latency=56
+pc=40293c, @=1159346056, src level=L3 Hit, latency=52
+pc=40293c, @=1158365392, src level=L3 Hit, latency=50
+pc=40293c, @=1159276736, src level=L3 Hit, latency=48
+pc=40293c, @=1159182408, src level=L3 Hit, latency=56
+pc=40293c, @=1158518096, src level=L3 Hit, latency=43
+pc=402936, @=1085612912, src level=LFB Hit, latency=59
+pc=402942, @=140724825488616, src level=L1 Hit, latency=186
+pc=402942, @=140724825488616, src level=L1 Hit, latency=140
+pc=402936, @=1086740544, src level=LFB Hit, latency=131
+pc=40293c, @=1158886560, src level=L3 Hit, latency=58
+pc=40293c, @=1158888400, src level=L2 Hit, latency=31
+pc=40293c, @=1158452568, src level=L3 Hit, latency=52
+pc=40293c, @=1159130016, src level=L3 Hit, latency=55
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=40293c, @=1158694160, src level=L3 Hit, latency=42
+pc=402932, @=136867352, src level=LFB Hit, latency=124
+pc=402942, @=140724825488616, src level=L1 Hit, latency=227
+pc=402936, @=1090159232, src level=LFB Hit, latency=38
+pc=402942, @=140724825488616, src level=L1 Hit, latency=114
+pc=402942, @=140724825488616, src level=L1 Hit, latency=122
+pc=402942, @=140724825488616, src level=L1 Hit, latency=200
+pc=40293c, @=1159220360, src level=L3 Hit, latency=38
+pc=40293c, @=1158804768, src level=L3 Hit, latency=38
+pc=40293c, @=1158824880, src level=L3 Hit, latency=42
+pc=40293c, @=1159364120, src level=L3 Hit, latency=47
+pc=402942, @=140724825488616, src level=L1 Hit, latency=111
+pc=402932, @=138947432, src level=LFB Hit, latency=127
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=402936, @=1094316424, src level=LFB Hit, latency=218
+pc=40293c, @=1158435904, src level=L3 Hit, latency=87
+pc=402942, @=140724825488616, src level=L1 Hit, latency=145
+pc=402942, @=140724825488616, src level=L1 Hit, latency=852
+pc=40293c, @=1158977000, src level=Local RAM Hit, latency=57
+pc=40293c, @=1159156168, src level=L3 Hit, latency=42
+pc=402942, @=140724825488616, src level=L1 Hit, latency=132
+pc=40293c, @=1159051528, src level=L3 Hit, latency=103
+pc=402936, @=1097398752, src level=LFB Hit, latency=95
+pc=402942, @=140724825488616, src level=L1 Hit, latency=154
+pc=40293c, @=1159301968, src level=L3 Hit, latency=61
+pc=40293c, @=1158415360, src level=L3 Hit, latency=49
+pc=402942, @=140724825488616, src level=L1 Hit, latency=128
+pc=40293c, @=1159184672, src level=L3 Hit, latency=99
+pc=402942, @=140724825488616, src level=L1 Hit, latency=172
+pc=402936, @=1100082040, src level=LFB Hit, latency=26
+pc=402942, @=140724825488616, src level=L1 Hit, latency=243
+pc=402958, @=140724825488616, src level=L1 Hit, latency=177
+pc=402942, @=140724825488616, src level=L1 Hit, latency=180
+pc=402942, @=140724825488616, src level=L1 Hit, latency=150
+pc=402942, @=140724825488616, src level=L1 Hit, latency=218
+pc=402936, @=1102375832, src level=LFB Hit, latency=102
+pc=40293c, @=1158956384, src level=L3 Hit, latency=41
+pc=402942, @=140724825488616, src level=L1 Hit, latency=294
+pc=402936, @=1103495536, src level=LFB Hit, latency=59
+pc=40293c, @=1158391752, src level=L3 Hit, latency=60
+pc=40293c, @=1159144000, src level=L3 Hit, latency=39
+pc=402936, @=1104646248, src level=LFB Hit, latency=139
+pc=40293c, @=1159067480, src level=L3 Hit, latency=50
+pc=402936, @=1105428816, src level=LFB Hit, latency=211
+pc=40293c, @=1158587672, src level=L3 Hit, latency=39
+pc=402942, @=140724825488616, src level=L1 Hit, latency=211
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=202
+pc=402942, @=140724825488616, src level=L1 Hit, latency=144
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402942, @=140724825488616, src level=L1 Hit, latency=160
+pc=402942, @=140724825488616, src level=L1 Hit, latency=152
+pc=402942, @=140724825488616, src level=L1 Hit, latency=155
+pc=402936, @=1109230536, src level=LFB Hit, latency=78
+pc=40293c, @=1159463080, src level=L3 Hit, latency=47
+pc=402936, @=1109980800, src level=Local RAM Hit, latency=227
+pc=402942, @=140724825488616, src level=L1 Hit, latency=141
+pc=402932, @=147537436, src level=LFB Hit, latency=126
+pc=402936, @=1111129056, src level=LFB Hit, latency=57
+pc=402936, @=1111497000, src level=LFB Hit, latency=154
+pc=402942, @=140724825488616, src level=L1 Hit, latency=136
+pc=402932, @=148287964, src level=LFB Hit, latency=187
+pc=40293c, @=1159151048, src level=L3 Hit, latency=45
+pc=40293c, @=1158711864, src level=L3 Hit, latency=91
+pc=402942, @=140724825488616, src level=L1 Hit, latency=127
+pc=402932, @=149049952, src level=LFB Hit, latency=125
+pc=402942, @=140724825488616, src level=L1 Hit, latency=235
+pc=402942, @=140724825488616, src level=L1 Hit, latency=147
+pc=40293c, @=1158410448, src level=L3 Hit, latency=38
+pc=402936, @=1115282880, src level=LFB Hit, latency=124
+pc=402936, @=1115667040, src level=LFB Hit, latency=106
+pc=402942, @=140724825488616, src level=L1 Hit, latency=142
+pc=402942, @=140724825488616, src level=L1 Hit, latency=230
+pc=402932, @=150576148, src level=LFB Hit, latency=182
+pc=40293c, @=1159052632, src level=L3 Hit, latency=53
+
+head = 30320 compared to max = 266240
+Thread 0: 758      samples
+Thread 0: 302      local cache 1                  39.842%
+Thread 0: 5        local cache 2                  0.660%
+Thread 0: 251      local cache 3                  33.113%
+Thread 0: 185      local cache LFB                24.406%
+Thread 0: 15       local memory                   1.979%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ Phase 2: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ Phase 3: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+pc=402e4e, @=1162788560, src level=LFB Hit, latency=30
+
+head = 40 compared to max = 266240
+Thread 0: 1        samples
+Thread 0: 0        local cache 1                  0.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 1        local cache LFB                100.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ Phase 4: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+pc=402fbe, @=140724825488616, src level=L1 Hit, latency=204
+
+head = 40 compared to max = 266240
+Thread 0: 1        samples
+Thread 0: 1        local cache 1                  100.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 0        local cache LFB                0.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ Phase 5: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ Phase 6: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+pc=4033be, @=140724825488616, src level=L1 Hit, latency=221
+pc=4033be, @=140724825488616, src level=L1 Hit, latency=225
+
+head = 80 compared to max = 266240
+Thread 0: 2        samples
+Thread 0: 2        local cache 1                  100.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 0        local cache LFB                0.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ Phase 7: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ Phase 8: 
+loc(sm) = 0x45853e00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x45853e00
+stop loc(add)0x45853e00
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+
+   iteration           ||r||                 zeta
+        1       0.48234431173952E-12   109.9994423237398
+ sampling_check =            1

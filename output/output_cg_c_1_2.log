@@ -1,0 +1,258 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:            163800060
+ a: add:            828329824 size:            327600120
+ x: add:           1155929944 size:              1200016
+ z: add:           1157129960 size:              1200016
+ p: add:           1158329976 size:              1200016
+ r: add:           1160730008 size:              1200016
+ q: add:           1159529992 size:              1200016
+loc(sm) = 0x46b5fe00	loc(add)=0x7ffd51fd3538
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+ sampling_check =            0
+ sampling_check =            1
+ Phase 1: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 38
+a: 213
+x: 0
+z: 0
+p: 233
+q: 0
+r: 0
+others: 280
+total: 764
+ Phase 2: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 3: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 1
+total: 1
+ Phase 4: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 1
+total: 1
+ Phase 5: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 6: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 1
+p: 0
+q: 0
+r: 1
+others: 1
+total: 3
+ Phase 7: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ Phase 8: 
+loc(sm) = 0x46b5fe00
+
+Starting memory sampling
+fd_per_tid = 13
+measure->nb_threads=1
+33333333fd_per_tid = 13
+sm = 0x46b5fe00
+stop loc(add)0x46b5fe00
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+
+   iteration           ||r||                 zeta
+        1       0.48234431173952E-12   109.9994423237398
+ sampling_check =            1
+        2       0.10813301768061E-14    27.3920437146500
+ sampling_check =            1
+        3       0.11351384459845E-14    28.0339761840280
+ sampling_check =            1
+        4       0.11648391234434E-14    28.4191507551295
+ sampling_check =            1
+        5       0.11886771894963E-14    28.6471670038885
+ sampling_check =            1
+        6       0.11937874759659E-14    28.7812969418392
+ sampling_check =            1
+        7       0.12008615920883E-14    28.8600458537346
+ sampling_check =            1
+        8       0.12048530020154E-14    28.9063145572706
+ sampling_check =            1
+        9       0.12062626841265E-14    28.9335649214626
+ sampling_check =            1
+       10       0.12082951489145E-14    28.9496695448994
+ sampling_check =            1
+       11       0.12100045071758E-14    28.9592263353758
+ sampling_check =            1
+       12       0.12105538135476E-14    28.9649233484885
+ sampling_check =            1
+       13       0.12090697132234E-14    28.9683359248931
+ sampling_check =            1
+       14       0.12094759658880E-14    28.9703903960010
+ sampling_check =            1
+       15       0.12098629452510E-14    28.9716336228364
+ sampling_check =            1
+       16       0.12105410367377E-14    28.9723898600845
+ sampling_check =            1
+       17       0.12083418434676E-14    28.9728522692226
+ sampling_check =            1
+       18       0.12150514608219E-14    28.9731364797774
+ sampling_check =            1
+       19       0.12058055475732E-14    28.9733120569269
+ sampling_check =            1
+       20       0.12111799404999E-14    28.9734210663746
+ sampling_check =            1
+       21       0.12088605674603E-14    28.9734890760527
+ sampling_check =            1
+       22       0.12125228055955E-14    28.9735317064875
+ sampling_check =            1
+       23       0.12118183440261E-14    28.9735585497263
+ sampling_check =            1
+       24       0.12123372970376E-14    28.9735755256659
+ sampling_check =            1
+       25       0.12157366104819E-14    28.9735863059394
+ sampling_check =            1
+       26       0.12073280892320E-14    28.9735931787385
+ sampling_check =            1
+       27       0.12128045423460E-14    28.9735975767405
+ sampling_check =            1
+       28       0.12128795080443E-14    28.9736004009971
+ sampling_check =            1
+       29       0.12079164427643E-14    28.9736022206776
+ sampling_check =            1
+       30       0.12130178537380E-14    28.9736033967622
+ sampling_check =            1
+       31       0.12036462567625E-14    28.9736041591166
+ sampling_check =            1
+       32       0.12044366750466E-14    28.9736046546421
+ sampling_check =            1
+       33       0.12091217036463E-14    28.9736049775613
+ sampling_check =            1
+       34       0.12085085775008E-14    28.9736051885084
+ sampling_check =            1

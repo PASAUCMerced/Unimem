@@ -1,0 +1,323 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329504 size:            163800060
+ a: add:            828329856 size:            327600120
+ x: add:           1155929976 size:              1200016
+ z: add:           1157129992 size:              1200016
+ p: add:           1158330008 size:              1200016
+ r: add:           1160730040 size:              1200016
+ q: add:           1159530024 size:              1200016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 468545106
+
+Memory read sampling results
+
+head = 25120 compared to max = 266240
+Thread 0: 785      samples
+Thread 0: 444      local cache 1                  56.561%
+Thread 0: 29       local cache 2                  3.694%
+Thread 0: 167      local cache 3                  21.274%
+Thread 0: 134      local cache LFB                17.070%
+Thread 0: 8        local memory                   1.019%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 589236
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 2472189
+
+Memory read sampling results
+
+head = 32 compared to max = 266240
+Thread 0: 1        samples
+Thread 0: 0        local cache 1                  0.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 1        local cache LFB                100.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 3352395
+
+Memory read sampling results
+
+head = 32 compared to max = 266240
+Thread 0: 1        samples
+Thread 0: 1        local cache 1                  100.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 0        local cache LFB                0.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 500424
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 563565
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1295673
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 6
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 557993070
+
+Memory read sampling results
+
+head = 12992 compared to max = 266240
+Thread 0: 406      samples
+Thread 0: 232      local cache 1                  57.143%
+Thread 0: 14       local cache 2                  3.448%
+Thread 0: 76       local cache 3                  18.719%
+Thread 0: 78       local cache LFB                19.212%
+Thread 0: 5        local memory                   1.232%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 758778
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1416249
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 3662367
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 657345
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 715515
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1232739
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+phase_counter 6

@@ -1,0 +1,169 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:           3042000084
+ a: add:          15246329968 size:           6084000168
+ x: add:          21330330136 size:             12000016
+ z: add:          21342330152 size:             12000016
+ p: add:          21354330168 size:             12000016
+ r: add:          21378330200 size:             12000016
+ q: add:          21366330184 size:             12000016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    1500000
+ Iterations:   100
+ Number of active processes:     1
+ Number of nonzeroes per row:       21
+ Eigenvalue shift: .500E+03
+ --------Phase 1: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 2385
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 6553
+ --------Phase 2: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 3: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 2
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 13
+ --------Phase 4: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 12
+ --------Phase 5: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 6: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 26
+ --------Phase 7: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 8: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 7

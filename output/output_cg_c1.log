@@ -1,0 +1,177 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:            163800060
+ a: add:            828329824 size:            327600120
+ x: add:           1155929944 size:              1200016
+ z: add:           1157129960 size:              1200016
+ p: add:           1158329976 size:              1200016
+ r: add:           1160730008 size:              1200016
+ q: add:           1159529992 size:              1200016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+ --------Phase 1: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 23280 compared to max = 266240
+Thread 0: 582      samples
+Thread 0: 204      local cache 1                  35.052%
+Thread 0: 6        local cache 2                  1.031%
+Thread 0: 180      local cache 3                  30.928%
+Thread 0: 176      local cache LFB                30.241%
+Thread 0: 16       local memory                   2.749%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ --------Phase 2: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ --------Phase 3: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ --------Phase 4: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 40 compared to max = 266240
+Thread 0: 1        samples
+Thread 0: 1        local cache 1                  100.000%
+Thread 0: 0        local cache 2                  0.000%
+Thread 0: 0        local cache 3                  0.000%
+Thread 0: 0        local cache LFB                0.000%
+Thread 0: 0        local memory                   0.000%
+Thread 0: 0        remote cache or local memory   0.000%
+Thread 0: 0        remote memory                  0.000%
+Thread 0: 0        unknown l3 miss                0.000%
+ --------Phase 5: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ --------Phase 6: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ --------Phase 7: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%
+ --------Phase 8: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+head = 0 compared to max = 266240
+Thread 0: 0        samples
+Thread 0: 0        local cache 1                  -nan%
+Thread 0: 0        local cache 2                  -nan%
+Thread 0: 0        local cache 3                  -nan%
+Thread 0: 0        local cache LFB                -nan%
+Thread 0: 0        local memory                   -nan%
+Thread 0: 0        remote cache or local memory   -nan%
+Thread 0: 0        remote memory                  -nan%
+Thread 0: 0        unknown l3 miss                -nan%

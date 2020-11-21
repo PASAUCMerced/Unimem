@@ -1,0 +1,609 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329504 size:            163800060
+ a: add:            828329856 size:            327600120
+ x: add:           1155929976 size:              1200016
+ z: add:           1157129992 size:              1200016
+ p: add:           1158330008 size:              1200016
+ r: add:           1160730040 size:              1200016
+ q: add:           1159530024 size:              1200016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 362725815
+
+Memory read sampling results
+
+total: 262
+loc(6329504) = 3
+loc(828329856) = 5
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 254
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 315672
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 650631
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1425318
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 228768
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 269457
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 592950
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+254 5 3 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 362523471
+
+Memory read sampling results
+
+total: 120
+loc(6329504) = 0
+loc(828329856) = 2
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 118
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 364803
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 660303
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1380042
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 285924
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 278949
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 531654
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+118 2 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+
+   iteration           ||r||                 zeta
+        1       0.48234431173952E-12   109.9994423237398
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 362524311
+
+Memory read sampling results
+
+total: 87
+loc(6329504) = 3
+loc(828329856) = 4
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 80
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 353652
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 663273
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1382931
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 327450
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 292203
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 504954
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+80 4 3 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+        2       0.10813301768061E-14    27.3920437146500
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 362598936
+
+Memory read sampling results
+
+total: 52
+loc(6329504) = 3
+loc(828329856) = 1
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 48
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 305271
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 647892
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 1430481
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 229245
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 274797
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+exe_time: 569217
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+48 3 1 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 

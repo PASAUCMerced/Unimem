@@ -1,0 +1,1837 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329504 size:            163800060
+ a: add:            828329856 size:            327600120
+ x: add:           1155929976 size:              1200016
+ z: add:           1157129992 size:              1200016
+ p: add:           1158330008 size:              1200016
+ r: add:           1160730040 size:              1200016
+ q: add:           1159530024 size:              1200016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 366235647
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 289980
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 631821
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1423188
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 208527
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 244884
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 601863
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365749374
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 293562
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 714177
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1393020
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 201702
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 211332
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 568737
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+
+   iteration           ||r||                 zeta
+        1       0.48234431173952E-12   109.9994423237398
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365861640
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 282489
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 647445
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1436112
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 209298
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 252045
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 577713
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        2       0.10813301768061E-14    27.3920437146500
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365728260
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 290520
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 636618
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1420281
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 216417
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 208884
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 598545
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        3       0.11351384459845E-14    28.0339761840280
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365702577
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 279630
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 691653
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1411077
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 203886
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 211236
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 545205
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        4       0.11648391234434E-14    28.4191507551295
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365801259
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 279963
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 722154
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1387959
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 200253
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 209718
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 560121
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        5       0.11886771894963E-14    28.6471670038885
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365595684
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 320832
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 689112
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1376811
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 243996
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 247296
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 522030
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        6       0.11937874759659E-14    28.7812969418392
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365779554
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 336456
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 646599
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1380249
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 232497
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 244491
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 522933
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        7       0.12008615920883E-14    28.8600458537346
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365703987
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 279342
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 643689
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1417734
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 208776
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 246597
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 601038
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        8       0.12048530020154E-14    28.9063145572706
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365878764
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 273354
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 640782
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1425696
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 206574
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 242706
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 544560
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+        9       0.12062626841265E-14    28.9335649214626
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365708934
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 335397
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 656439
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1373562
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 233388
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 210312
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 505914
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+       10       0.12082951489145E-14    28.9496695448994
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 366259311
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 334533
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 653880
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1378560
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 277548
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 238968
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 522816
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6
+       11       0.12100045071758E-14    28.9592263353758
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 365894694
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 0
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 273840
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 1
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 742356
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 2
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 1377240
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 3
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 204582
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 4
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 204939
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 5
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5301cd
+exe_time: 567996
+
+Memory read sampling results
+
+total: 0
+loc(6329504) = 0
+loc(828329856) = 0
+loc(1155929976) = 0
+loc(1157129992) = 0
+loc(1158330008) = 0
+loc(1159530024) = 0
+loc(1160730040) = 0
+phase_counter 6

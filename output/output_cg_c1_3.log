@@ -1,0 +1,476 @@
+cpu name =I7_5960X based on Haswell micro arch - Haswell-E decline - 4th generation Intel Core
+ colidx: add:              6329472 size:            163800060
+ a: add:            828329824 size:            327600120
+ x: add:           1155929944 size:              1200016
+ z: add:           1157129960 size:              1200016
+ p: add:           1158329976 size:              1200016
+ r: add:           1160730008 size:              1200016
+ q: add:           1159529992 size:              1200016
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+ --------Phase 1: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 3
+a: 3
+x: 0
+z: 0
+p: 251
+q: 0
+r: 0
+others: 0
+total: 767
+ --------Phase 2: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 3: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 4: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 5: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 6: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 2
+ --------Phase 7: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 8: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 1: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 4
+a: 6
+x: 0
+z: 0
+p: 243
+q: 0
+r: 0
+others: 0
+total: 766
+ --------Phase 2: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 3: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 4: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 5: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 6: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 2
+ --------Phase 7: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 8: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+
+   iteration           ||r||                 zeta
+        1       0.48234431173952E-12   109.9994423237398
+ --------Phase 1: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 1
+a: 6
+x: 0
+z: 0
+p: 258
+q: 0
+r: 0
+others: 0
+total: 767
+ --------Phase 2: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 3: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 4: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 1
+ --------Phase 5: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 6: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 2
+ --------Phase 7: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
+ --------Phase 8: 
+
+Starting memory sampling
+
+Event 1 name: 0x5301cd
+
+Event 2 name: 0x5382d0
+
+Memory read sampling results
+
+colidx: 0
+a: 0
+x: 0
+z: 0
+p: 0
+q: 0
+r: 0
+others: 0
+total: 0
